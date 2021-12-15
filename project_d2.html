@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>Hito 4: Prototipo</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="HandheldFriendly" content="true">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Import CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie8.css"/>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--[if IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie9.css"/>
+	<![endif]-->
+</head>
+
+<body>
+
+	<!-- Start Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="span5">
+					<div id="logo">
+						<a href="index.html">Little Mix of Signals</a>
+						<p>Little M.O.S.</p>
+					</div>
+				</div>
+				<div class="span7">
+					<!-- Start Navigation -->
+					<nav>
+						<ul id="navigation" class="pull-right hidden-phone">
+							<li class="submenu">
+								<a href="index.html">Inicio</a>
+							</li>
+							<li class="submenu">
+								<a href="portfolio.html">Hitos</a>
+							</li>
+							<li class="submenu">
+								<a href="about.html">Nosotros</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- End Navigation -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<!-- Start Project Section -->
+	<article id="project">
+		<div class="background">
+			<div class="pattern"></div>
+			<div class="gradient"></div>
+		</div>
+		<div class="container">
+		
+			<!-- Start Project Description -->
+			<div class="row">
+				<div class="span8">
+					<h1 class="color-text">Diseño Electrónico</h1>
+				</div>
+			</div>
+			<div class="row">
+				
+				
+			</div>
+			
+			
+			<!-- End Project Description -->
+			
+			<!-- Start Case -->
+			<section id="case">
+				<div class="row"><div class="span12 line"></div>
+				<div class="span12">
+						<h5>Sensor MAX30100</h5>
+						<p>El MAX 30100 necesita de dos voltaje para funcionar: 1.8V y 3.3V, por lo que este módulo incluye ambos reguladores de voltaje en placa, de ese modo solo se necesita una fuente de 5V para la alimentación. Su consumo de corriente es mínimo, por lo que es ideal para aplicaciones portátiles. Puede ser utilizado en equipos de monitoreo médico, como este prototipo planteado. La conexión que tendrá este con el arduino será mediante cables jumper ocupando 7 puertos</div></div>
+				<div class="row">
+				<div class="span12 line"></div></div>
+				<div class="row">
+				<div class="span12">
+						<h5>Sensor DS18b20</h5>
+						<p>El DS18b20 trabaja con voltajes entre 3.0V y 5.5V, su rango de medición es de -55°C hasta +125°C (-67°F a +257°F), la precisión en su medición va de  -10°C hasta +85°C: ±0.5°C. Posee una resolución ADC seleccionable de 9-12 bits. Usa cables: Rojo (+VCC), Blanco (DATA 1-Wire), Negro (GND). Usa un protocolo 1-Wire, solo necesita 1 pin para comunicarse.</p></div></div>
+				<div class="row">
+				<div class="span12 line"></div></div>
+				<div class="row">
+					
+					<div class="span12">
+						<h5>Sensor Mpx2050</h5>
+						<p>El Mpx2050 posee una sensibilidad de 0.8,V/kPa. Utiliza 4 pines de trabajo, con una tensión de alimentación de 10 a 16 V.</p>	
+					</div>
+				</div>
+				<div class="row">
+				<div class="span12 line"></div></div>
+				<div class="row">
+				<div class="span12">
+						<h5>Sensor de humedad DHT11</h5>
+						<p>En cuanto al hardware, solo es necesario conectar el pin VCC de alimentación a 3-5V, el pin GND a Tierra (0V) y el pin de datos a un pin digital en nuestro Arduino. Si se desea conectar varios sensores DHT11 a un mismo Arduino, cada sensor debe tener su propio pin de datos. Quizá la única desventaja del sensor es que sólo se puede obtener nuevos datos cada 2 segundos. Cada sensor es calibrado en fábrica para obtener unos coeficientes de calibración grabados en su memoria OTP, asegurando alta estabilidad y fiabilidad a lo largo del tiempo. El protocolo de comunicación entre el sensor y el microcontrolador emplea un único hilo o cable, la distancia máxima recomendable de longitud de cable es de 20m., de preferencia utilizar cable apantallado. Proteger el sensor de la luz directa del sol (radiación UV).</p></div></div>
+				
+				<div class="row">
+				<div class="span12 line"></div></div>
+				<div class="row">
+				
+				
+			</section>
+			<!-- End Case -->
+		</div>
+	</article>
+	<!-- End Project Section -->
+	
+	<!-- Start Pagination -->
+	<section class="left-right container">
+		<div class="row">
+			<div class="span12">
+				<a class="arrow pull-left" href="#"><i class="icon-chevron-left"></i>Previous</a>
+				<a class="arrow pull-right" href="#">Next<i class="icon-chevron-right"></i></a>
+				<a class="back" href="portfolio.html">Back to portfolio</a>
+			</div>
+		</div>
+	</section>
+	<!-- End Pagination -->
+				
+	<!-- Start Footer -->
+	<footer class="container">
+		<div class="row">
+			<div class="span9">
+				<p>© 2021 <a href="index.html">Observe Vel.</a><br>
+				</p>
+				<!-- Start Footer Navigation -->
+				<nav>
+					<ul class="pull-right hidden-phone">
+						<li><a href="index.html">Inicio</a></li>
+					</ul>
+				</nav>
+				<!-- End Footer Navigation -->
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+	
+	<!-- jQuery -->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="js/jquery.easing-1.3.js"></script>
+	
+	<!-- Main JS Plugins -->
+	<script src="js/shortcodes.js"></script><!-- Shortcodes -->
+	<script src="js/main.js"></script><!-- Hovers -->
+	<script src="js/selectnav.min.js"></script><!-- Mobile Navigation -->
+	<script src="js/jquery.fancybox.pack.js"></script><!-- Fancybox -->
+	<script src="js/jquery.fancybox-media.js"></script><!-- Fancybox Media Helper -->
+	<script src="js/jquery.flexslider.js"></script><!-- Flexslider -->
+	<script src="js/settings.js"></script> <!-- Settings for JS Plugins -->
+	
+</body>
+
+</html>
+<!-- RUDERMANN TEMPLATE BY ILYA SIDELNIKOV AND TVDA - THEMES.TVDA.EU -->
